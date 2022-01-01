@@ -1,0 +1,56 @@
+/* Priorities between CSS's
+inline CSS >> Internal CSS >> External CSS */
+
+/* ID SELECTORS >> CLASS SELECTORS >> TAG SELECTORS */
+
+/*********************************************** TAG SELECTORS ***********************************************/
+
+body {
+  background-color: powderblue;
+}
+
+hr {
+  /* background-color: none; */
+  /* border-style: dotted none none;===> alternative(visit https://developer.mozilla.org/en-US/docs/Web/CSS/border-style) */
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  /* width: 100px; */
+  width: 4%;
+}
+
+h1 {
+  color: #2F86A6;
+}
+
+h3 {
+  color: #2F86A6;
+}
+
+img:hover{           /* :name ==> This is called a pseudo class AND :hover means mouse over or role over*/
+  background-color: turquoise;
+}
+/*********************************************** CLASS SELECTORS ***********************************************/
+
+.developer {
+  background-color: gray;
+}
+
+.dance {
+  background-color: green;
+}
+
+.swimming {
+  background-color: blue;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/*********************************************** ID SELECTORS ***********************************************/
+
+#heading {
+  font-style:italic;
+}
